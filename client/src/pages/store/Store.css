@@ -1,0 +1,257 @@
+
+  .storeinput[type = text]{
+
+    width: 250px;
+    padding: 15px;
+    border-radius: 20px;
+    
+  }
+
+  body{
+    background-color: rgb(251, 255, 255);
+
+  }
+.store{
+  width: 100%;
+  height: 30px;
+   padding-top: 80px;
+ }
+   
+div.gallery {
+    margin: 5px;
+     float: left;
+    width: 220px;
+    height:450px;
+    margin-left: 15px;
+    margin-top: 50px;
+    border-radius: 10px;
+    }
+   
+  div.gallery:hover {
+     background-color: rgb(233, 233, 240);
+
+   }
+  
+
+  .button {
+    background-color: #58565f;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+     cursor: pointer;
+     border-radius: 8px;
+      
+     
+  }
+
+  .button:hover {
+    background-color: black; 
+    color: white;
+  }
+  
+   .b6{
+    margin-top: 5px;
+   }
+
+
+.scroll {
+    /* The image used */
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(../../images/Store/back4.jpeg);
+
+    /* Set a specific height */
+    min-height: 600px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.topicS {
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    font-size: 30px;
+    color: white;
+    font-family:'Times New Roman';
+    padding-top: 40px;
+
+}
+
+.tpc {
+  justify-content: center;
+  font-size: 36px;
+  font-family: 'Great Vibes', 'cursive';
+   margin-bottom: 50PX;
+   position: absolute;
+  top: 115%;
+  left: 27%;
+  font-size: 40px;
+  color: rgb(124, 116, 116);
+ 
+}
+
+ 
+  
+  /* Define keyframes for the animation */
+@keyframes move-hr {
+  0% {
+      margin-left: 0; /* Start position */
+  }
+  100% {
+      margin-left: calc(100% - 100px); /* End position */
+  }
+}
+
+.hr-container{
+  width:auto;
+  height:100px;
+  float: left;
+  background-color: #777;
+   margin: 20px 0; /* Add some spacing above and below the hr */
+  animation: move-hr 10s linear infinite; /* Apply animation */
+}
+
+.types{
+  margin-top: 150px;
+  margin-left: 280px; 
+ }
+ 
+ 
+.category{
+    color: #131212;
+    margin-top: 45px;
+    margin-left: 40px;
+    margin-right: 50px;
+    font-weight: bold;
+}
+.category:hover{
+  color: #fefeff;
+}
+.Spic{
+  width: 100%;
+   height: 250px;
+   background-color: #f0ecec9c;
+  border-radius: 20px;
+ }
+
+.Sdetails{
+  width: 100%;
+  height: 130px;
+   
+ 
+}
+div.PaceBtn {
+  width: 100%;
+  height: 70px;
+  text-align: center;
+   
+}
+
+div.gallery img {
+  width: 80%;
+  height: auto;
+   padding-left: 20px;
+   padding-top: 40px;  
+   margin-left: 10px;  
+
+  }
+
+ .gallery p{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:darkred;
+   }
+
+
+.bannerS{
+  width: 100%;
+   margin-top: 1200px;
+}
+
+.ImgSqure{
+  float: left;
+ margin-left: 15px;
+}
+
+.Storegallery{
+  width: 100%;
+  height: auto;
+  padding-left: 70px;
+ }
+
+ div.ImgSqure:hover {
+  opacity: 0.6;
+ 
+ }
+
+ .Sbutton{
+   
+  border-radius: 5px;
+  background: rgb(14, 13, 13);
+  border-radius: 0px;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  cursor: pointer;
+  width: 100px;
+  }
+
+  
+
+.sSearch{
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  width: 250px;
+  margin-left: 30px;
+  background-color: #77777744;
+}
+
+.STtopic{
+  padding-top: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 20px;
+  color: #100449;
+}
+
+.StoreSearch{
+  padding-top: 10px;
+}
+
+
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+   
+
+
+ 
+
+ 

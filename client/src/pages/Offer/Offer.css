@@ -1,0 +1,105 @@
+.container {
+    padding-left: 10px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .service_subtitle{
+    text-align: center; 
+  font-size: 1.5em;
+  margin-bottom: 20px; 
+  font-weight: bold;
+  width: 100%; 
+  }
+  .offer-info {
+    display: flex;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+    height: 280px;
+    border-radius: 20px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.199);
+  }
+  
+  .offer_details_image {
+    width: 350px; 
+    height: 100%;
+    margin-right: 20px;
+    border-radius: 20px;
+  }
+  
+  .details {
+    flex-grow: 1; /* Allow the details to take up remaining space */
+    background-color: rgba(117, 116, 113, 0.103);
+    border-radius: 20px;
+    justify-content: center;
+  }
+  
+  .details div {
+    margin-bottom: 10px; /* Spacing between detail elements */
+  }
+  
+  .offer_app_button {
+    background-color: rgb(39, 27, 54);
+    color: white;
+    margin-top: 10px;
+    border: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-left: 70%;
+    height: 34px;
+    width: 250px;
+    margin-bottom: 10px;
+  }
+  
+  .button-pos {
+    margin-left: auto;
+  }
+  
+  .offer_app_button:hover{
+    background-color: rgba(73, 57, 94, 0.562)
+    
+  }
+  
+  .offer-info {
+    position: relative; /* Set position relative for the container */
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .offer-name {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.192);
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .offer-n-c{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .offer-desc{
+    text-align :inherit;
+    margin-left: 10px;
+  }
+  
+  .price{
+    margin-left: 10px;
+    font-size: 1.1em;
+    color: #28a745;
+  }
+  

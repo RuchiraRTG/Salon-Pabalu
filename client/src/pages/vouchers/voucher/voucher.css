@@ -1,0 +1,74 @@
+.voucher-container {
+	display: flex;
+	padding: 20px;
+	/* Screen size - 100px */
+	/* max-width: calc(100vw - 100px); */
+	margin: auto;
+	/* border: 1px solid #ccc; */
+	/* border-radius: 8px; */
+	background-color: transparent;
+}
+
+.voucher-image-50 {
+	max-width: 50%;
+	height: auto;
+	margin-right: 20px;
+	border-radius: 8px;
+}
+
+.details {
+	flex: 1;
+}
+
+.value-selection {
+	margin-top: 20px;
+}
+
+.value-options {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 10px;
+}
+
+.value-button {
+	margin-right: 15px;
+	padding: 10px 15px;
+	border: 1px solid #007bff;
+	border-radius: 5px;
+	background-color: white;
+	color: #007bff;
+	cursor: pointer;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+.value-button.selected {
+	background-color: #007bff;
+	color: white;
+}
+
+input[type='radio'] {
+	display: none;
+}
+
+.purchase-button {
+	margin-top: 20px;
+	padding: 10px 20px;
+	font-size: 1.5rem;
+	border: none;
+	border-radius: 5px;
+	background-color: #010000bb;
+	color: white;
+	cursor: pointer;
+}
+
+.purchase-button:hover {
+	background-color: #000000;
+}
+
+h1 {
+	text-align: left;
+	text-transform: uppercase;
+	font-size: 2rem;
+	margin: 0;
+	color: #333;
+}

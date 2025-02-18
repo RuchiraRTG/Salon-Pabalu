@@ -1,0 +1,102 @@
+body {
+  font-family: 'Poppins', sans-serif; /* Use Poppins font for the entire page */
+  background-color: #f9f9f9; /* Light background for contrast */
+  margin: 0;
+  padding: 0px;
+  color: #333; /* Dark text for better readability */
+}
+
+.salary-report-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff; /* White background for the card */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.title {
+  text-align: center;
+  font-size: 3em; /* Larger title */
+  color: #000102; /* Blue color for the title */
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column; /* Stack inputs vertically */
+  margin-bottom: 20px;
+  
+}
+
+.label {
+  padding: 10px;
+  margin: 10px 0; /* Space between labels and inputs */
+  font-weight: 500; /* Bold labels */
+  gap:20px;
+}
+
+.dropdown, .input {
+  padding: 10px;
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size for inputs */
+  width: 75%; /* Full width */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+.dropdown:focus, .input:focus {
+  border-color: #0056b3; /* Change border color on focus */
+  outline: none; /* Remove outline */
+}
+
+.fetch-button, .pdf-button {
+  background-color: #4f85ba; /* Blue button */
+  color: white; /* White text */
+  padding: 10px 15px; /* Padding for buttons */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size for buttons */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition for background color and transform */
+  margin-top: 10px; /* Space between button and inputs */
+}
+
+.fetch-button:hover, .pdf-button:hover {
+  background-color: #004494; /* Darker blue on hover */
+  transform: scale(0.90); /* Slightly grow button on hover */
+}
+
+.loading-message, .error-message {
+  text-align: center; /* Center messages */
+  color: #d9534f; /* Red color for error */
+}
+
+.report-section {
+  margin-top: 20px; /* Space above report section */
+}
+
+.report-list {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+}
+
+.report-item {
+  background-color: #f1f1f1; /* Light gray background for report items */
+  margin: 10px 0; /* Space between report items */
+  padding: 15px; /* Padding for report items */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.report-item p {
+  margin: 5px 0; /* Space between paragraphs */
+}
+
+.pdf-button {
+  display: block; /* Block button */
+  margin: 20px auto; /* Center button */
+}
+

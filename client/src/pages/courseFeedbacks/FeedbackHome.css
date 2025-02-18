@@ -1,0 +1,243 @@
+.feed-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 80px 10%;
+}
+
+ .feed_col-lg-3 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width: 992px) {
+  .feed_col-lg-9 {
+    flex: 0 0 70%;
+    max-width: 70%;
+  }
+
+  .feed_col-lg-3 {
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+}
+
+.feed_header {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.feed_form-control {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: #495057;
+  border: 2px solid #ced4da;
+  border-radius: 8px;
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.feed_form-control.feed_btnsearch {
+  border: 2px solid #868686;
+}
+
+.feed_btnsearch {
+  height: 45px;
+  border-radius: 10px;
+  margin-top: 15px;
+  transition: transform 0.3s;
+}
+
+.feed_btnsearch:hover {
+  transform: scale(1.05);
+  border-color: #007bff;
+}
+
+.feed_post-list {
+  margin: 0 18%;
+  /* padding-top: 20px; */
+}
+
+.feed_post-card {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.feed_post-card:hover {
+  box-shadow: 4px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.feed_num-display {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.feed_close, .feed_edit-button {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  transition: transform 0.3s;
+}
+
+.feed_close:hover, .feed_edit-button:hover {
+  transform: scale(1.2);
+}
+
+.feed_text-display {
+  font-size: 1rem;
+  color: #444;
+  margin: 10px 0;
+}
+
+.feed_answer {
+  margin-left: 40px;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.feed_see-more {
+  margin-top: 10px;
+  background-color: #f8f9fa;
+  color: #007bff;
+  cursor: pointer;
+  padding: 5px 12px;
+  border-radius: 20px;
+  border: 1px solid #ced4da;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.feed_see-more:hover {
+  background-color: #007bff;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.feed_btn-success {
+  color: #fff;
+  background-color: #28a745;
+  padding: 10px 25px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+  margin-left: 10%;
+}
+
+.feed_btn-success:hover {
+  background-color: #218838;
+}
+
+.feed_card {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 3px 5px 12px rgba(211, 211, 211, 0.5);
+}
+
+.feed_card h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 25px 0;
+}
+
+.rating li, .feed_num-display {
+  background: #3c3c3c;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  border: 1px solid #eee;
+  transition: 0.3s;
+}
+
+.rating li:hover, .feed_num-display:hover {
+  background: #007bff;
+  color: #fff;
+}
+
+.feed_close, .feed_edit-button {
+  top: 5px;
+  right: 5px;
+}
+
+.feed_close:hover, .feed_edit-button:hover {
+  transform: scale(1.1);
+}
+
+.feed_btn-success {
+  width: 160px;
+  height: 45px;
+}
+
+
+/* CreatePost.css or FeedbackHome.css */
+
+/* Style for the container */
+.feed_post_container {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 10px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.feed_post_container:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Individual post sections */
+.feed_post_details div {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Styling the "See More" and "See Less" buttons */
+.feed_see-more {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.feed_see-more:hover {
+  background-color: #0056b3;
+}
+
+/* Additional info for expanded content */
+.feed_post_expanded {
+  margin-top: 10px;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+}

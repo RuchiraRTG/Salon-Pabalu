@@ -1,0 +1,162 @@
+.vouchers-container {
+	padding: 20px;
+}
+
+.filters {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.filters input {
+	padding: 8px;
+	margin-right: 10px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+
+.download-button {
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #4caf50;
+	border: none;
+	color: #ffffff;
+	text-align: center;
+	font-size: 16px;
+	padding: 10px 20px 10px 20px;
+	width: 160px;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+
+.download-button:hover {
+	background-color: #45a049;
+}
+
+.add-button {
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #2e2b34;
+	border: none;
+	color: #ffffff;
+	text-align: center;
+	font-size: 16px;
+	padding: 10px 20px 10px 20px;
+	width: 160px;
+	transition: all 0.5s;
+	cursor: pointer;
+	/* margin: 5px; */
+}
+
+.add-button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.add-button span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.add-button:hover span {
+	padding-right: 25px;
+}
+
+.add-button:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+.vouchers-table {
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 0;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.vouchers-table th,
+.vouchers-table td {
+	padding: 12px 15px;
+	text-align: left;
+	border-bottom: 1px solid #e0e0e0;
+	vertical-align: middle;
+}
+
+.vouchers-table th {
+	background-color: #2e2b34;
+	color: #ffffff;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.vouchers-table td {
+	color: #555;
+	font-size: 14px;
+}
+
+.vouchers-table img {
+	border-radius: 5px;
+	width: 80px;
+	height: 80px;
+	object-fit: cover;
+}
+
+.vouchers-table tr:nth-child(even) {
+	background-color: #f9f9f9;
+}
+
+.vouchers-table tr:hover {
+	background-color: rgba(46, 43, 52, 0.1);
+	transition: background-color 0.3s ease;
+	/* border: 1px solid #2e2b34; */
+}
+
+.vouchers-table th:first-child,
+.vouchers-table td:first-child {
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+.vouchers-table th:last-child,
+.vouchers-table td:last-child {
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+/* Edit and Delete buttons */
+.edit-button,
+.delete-button {
+	padding: 6px 12px;
+	font-size: 13px;
+	border-radius: 4px;
+	border: none;
+	cursor: pointer;
+}
+
+.edit-button {
+	background-color: #4caf50;
+	color: #fff;
+}
+
+.edit-button:hover {
+	background-color: #45a049;
+}
+
+.delete-button {
+	background-color: #f44336;
+	color: #fff;
+	margin-left: 5px;
+}
+
+.delete-button:hover {
+	background-color: #e53935;
+}

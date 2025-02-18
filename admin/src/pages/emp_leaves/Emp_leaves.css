@@ -1,0 +1,106 @@
+/* Emp_leaves.css */
+.employee-list-container {
+    max-width: auto;
+    margin: 20px auto;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.employee-list-container h1 {
+    text-align: center;
+}
+
+.employee-filter-bar {
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    background: rgb(235, 235, 235);
+    border-radius: 8px;
+}
+
+.employee-list-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.employee-list-container th {
+    padding: 20px 5px;
+    border-bottom: 1px solid rgb(218, 218, 218);
+    text-align: left;
+    font-size: 14px;
+    background-color: rgba(228, 228, 228, 0.274);
+}
+
+.employee-list-container td {
+    padding: 20px 5px;
+    border-bottom: 1px solid rgb(218, 218, 218);
+    text-align: left;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.employee-id-td-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 125, 157);
+}
+
+.employee-id-td-container span {
+    cursor: pointer;
+    margin-left: 10px;
+    color: gray;
+    font-size: 18px;
+}
+
+.employee-status-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.employee-filter-search {
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    width: 250px;
+    margin-left: 30px;
+}
+
+.employee-filter-search-btn {
+    background: rgb(51, 51, 51);
+    border-radius: 0px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    cursor: pointer;
+    width: 100px;
+
+}
+
+.generate_report_btn {
+    width: 150px;
+    height: 40px;
+    display: block !important;
+    margin-left: 760px; /* Adjust margin as needed */
+    background: rgb(51, 51, 51);
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+    border: none !important;
+}
+
+.generate_report_btn:hover {
+    background-color: rgba(0, 0, 0, 0.721);
+}

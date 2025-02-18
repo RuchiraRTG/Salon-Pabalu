@@ -1,0 +1,153 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+.form-container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+	background-color: #fff;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+	color: #333;
+}
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: #555;
+}
+
+input[type='text'],
+input[type='number'],
+textarea {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 16px;
+	transition: border-color 0.3s;
+	box-sizing: border-box; /* Prevent overflow */
+}
+
+input[type='text']:focus,
+input[type='number']:focus,
+textarea:focus {
+	border-color: #007bff;
+	outline: none;
+}
+
+textarea {
+	height: 100px;
+	resize: vertical;
+}
+
+input::placeholder {
+	color: #aaa;
+}
+
+.error {
+	color: red;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+.input-group {
+	display: flex;
+	gap: 10px;
+}
+
+.btn {
+	padding: 10px 15px;
+	background-color: #007bff;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.btn:hover {
+	background-color: #0056b3;
+}
+
+.submit-btn {
+	width: 100%;
+	padding: 10px;
+	background-color: #28a745;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+	background-color: #218838;
+}
+
+.form-ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.form-ul li {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-top: 5px;
+}
+
+.form-ul button {
+	background: none;
+	border: none;
+	color: #dc3545;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.form-ul button:hover {
+	text-decoration: underline;
+}
+
+.img-preview {
+	margin-top: 15px;
+	text-align: center;
+}
+
+.img-preview img {
+	max-width: 100%;
+	max-height: 200px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.invalid-link {
+	color: red;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+/* Global reset for padding and margin */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}

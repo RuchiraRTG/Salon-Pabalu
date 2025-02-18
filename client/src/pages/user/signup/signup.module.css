@@ -1,0 +1,88 @@
+.signupContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--bs-body-bg);
+	height: 100vh;
+}
+
+.card {
+	background-color: var(--bs-body-bg);
+	border-radius: 10px;
+	padding: 2rem;
+	box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+	width: 50%;
+}
+
+.cardHeader {
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 1.5rem;
+}
+
+.cardBody {
+	display: flex;
+	flex-direction: column;
+}
+
+.formGroup {
+	margin-bottom: 1.5rem;
+}
+
+.label {
+	font-weight: bold;
+	margin-bottom: 0.5rem;
+}
+
+.input {
+	width: 100%;
+	padding: 0.75rem;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 1rem;
+}
+
+.error {
+	color: red;
+	font-size: 0.875rem;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.col {
+	width: 48%;
+}
+
+.submitButtonContainer {
+	display: flex;
+	justify-content: center;
+	margin-top: 2rem;
+}
+
+.submitButton {
+	background-color: #007bff;
+	color: white;
+	border: none;
+	padding: 0.75rem 1.5rem;
+	border-radius: 5px;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.submitButton:hover {
+	background-color: #0056b3;
+}
+
+.alreadyMember {
+	text-align: center;
+	margin-top: 1rem;
+}
+
+.alreadyMember p {
+	margin: 0;
+}
