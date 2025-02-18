@@ -168,7 +168,7 @@ function Appointment() {
                                                     <Checkbox value="Full face threading">Full face threading</Checkbox>
                                                     <Checkbox value="Eye brow shaping">Eye brow shaping</Checkbox>
                                                     <Checkbox value="Hand waxing">Hand waxing</Checkbox>
-                                                    <Checkbox value="Legs waxing">Legs waxing</Checkbox>
+                                                    <Checkbox value="Legs waxing">Legs  waxing</Checkbox>
                                                 </Checkbox.Group>
                                             </div>
                                         </div>
